@@ -9,6 +9,8 @@ jobs:
         run: |
           pwd
           ls
+      - name: CheckOut Repo
+        uses: actions/checkout@master
       - name: Simple JS Action
         id: greet
         uses: actions/hello-world-javascript-action@v1
