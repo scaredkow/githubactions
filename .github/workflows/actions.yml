@@ -3,7 +3,7 @@ on: push
 
 jobs:
   run-github-actions:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Simple JS Action
         id: greet
