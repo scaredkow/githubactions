@@ -2,7 +2,7 @@ name: Shell Commands
 on:
   push:
 jobs:
-  run_Shell_command:
+  run_shell_command:
     name: Run Shell Commands
     runs-on: ubuntu-latest
 
